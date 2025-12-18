@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello World Page</title>
+    <style>
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, #6e7f8e, #1e2a47); /* Gradient background */
+            color: #fff;
+            text-align: center;
+            margin: 0;
+        }
+
+        .container {
+            background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+            padding: 40px 60px;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            max-width: 500px;
+            width: 100%;
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            font-weight: 600;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        }
+
+        .footer {
+            font-size: 1rem;
+            margin-top: 30px;
+            font-weight: 400;
+            color: #bbb;
+        }
+
+        .footer a {
+            color: #ff7c7c;
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Add responsive design */
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px 30px;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            .footer {
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Hello, World!</h1>
+        <div class="footer">
+            Made by <strong>Uday Pratap Yadav</strong> - 2303051050971
+        </div>
+    </div>
+</body>
+</html>
